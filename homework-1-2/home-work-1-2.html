@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>home work 1-2</title>
+</head>
+<body>
+
+
+<h1>Урок "Формы": теги и их атрибуты.</h1>
+<h2>Расскажите немного о себе...</h2>
+<p>Попробуйте создать аналогичную форму. Для целей демонстрации вполне подойдут и вымышленные.</p>
+
+	<form action="#"  method="post">
+<fieldset>
+<legend>Коротко о себе</legend>
+<p>
+	<label>
+		Имя:
+		<input type="text" name="firstname" value="" /> 
+	</label>
+</p>
+<p>
+	<label>
+		Фамилия: <input type="text" name="secondname" value="" readonly="readonly" /> 
+	</label>
+</p>
+<p>
+	<label>Пол:
+	</label>
+	<label>
+		<input type="radio" name="sexman" value="" checked/> мужской
+	</label>
+	<label>
+		<input type="radio" name="sexwoman" value=""/> женский
+	</label>
+</p>
+<p>
+	<label>
+		Возраст:<input type="text" name="age" value="" />
+	</label>
+</p>
+</fieldset>
+
+<fieldset>
+<legend>Подробнее о себе</legend>
+	<p>
+		<label>
+			<input type="radio" name="asd" value="" checked="checked" /> молодой человек
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="radio" name="asd" value="" /> девушка
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="text" name="dateofborn" value="" /> дата рождения
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="text" name="maritalstatus" value="" /> семейное положение
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="text" name="socialstatus" value="" /> социальный статус
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="text" name="location" value="" /> место жительства
+		</label>
+	</p>
+	<p><b>Что вы делаете на выходжных?</b></p>
+	<p>
+		<label>
+			<input type="checkbox" name="ad" value="" /> сплю
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="checkbox" name="ad" value="" /> гуляю с друзьями
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="checkbox" name="ad" value="" /> хожу на рыбалку
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="checkbox" name="ad" value="" /> играю в игры
+		</label>
+	</p>
+	<p><b>Расказать о формах в книге,посвящённой HTML:</b></p>
+	<p>
+		<select name="about_form">
+			<option>Site frequency:</option>
+			<option>Site frequency:</option>
+		</select>
+	</p>
+	<p><b>Сколько книг вы прочитали за свою жизнь</b></p>
+	<p>
+		<label>
+			<input type="radio" name="sd" value="" /> 0-10
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="radio" name="sd" value="" /> 11-20
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="radio" name="sd" value="" /> 21-50
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="radio" name="sd" value="" /> 50+
+		</label>
+	</p>
+	<p><b>Ваши коментарии </b></p>
+	<p>
+		<textarea cols="100" rows="10"></textarea>
+	</p>
+	<p>
+		<select name="выберите" size="3">
+			<option>первая позиция </option>
+			<option>вторая позиция </option>
+			<option>третья позиция </option>
+		</select>
+	</p>
+</fieldset>
+<fieldset>
+	<legend><b>И в заключении</b></legend>
+	<p>
+		<label>
+			<input type="text" name="endform" value="это поле было введенно до вас" size="35"/>
+			</label>
+	</p>
+<p><b>Email:</b></p>
+ <p><input type="text" name="email" /></p>
+ <p><b>Хотите подписаться на самую модную рассылку спама?</b></p>
+ <p><i>Выберите категории</i></p>
+ 	<p>
+		<label>
+			<input type="checkbox" name="am" value="" /> Оборудование
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="checkbox" name="am" value="" /> Как приготовить обед
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="checkbox" name="am" value="" /> Заработай милион за два дня!
+		</label>
+	</p>
+<p><b>На сколько сложная задача:</b></p>
+	<p>
+		<label>
+			<input type="radio" name="sad" value="" /> совсем нет
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="radio" name="sad" value="" checked/> так себе
+		</label>
+	</p>
+	<p>
+		<label>
+			<input type="radio" name="sad" value="" /> еле справились
+		</label>
+	</p>
+</fieldset>
+
+<p><input type="submit" value="отправить" /></p>
+</form>
+
+	
+</body>
+</html>
